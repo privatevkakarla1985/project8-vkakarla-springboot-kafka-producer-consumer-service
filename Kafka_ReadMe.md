@@ -33,7 +33,9 @@ kafka-console-consumer.bat --topic helloTopic --bootstrap-server localhost:9092
   * Now you can produce all messages either application or producer console
   * Start Consumer : kafka-console-consumer.bat --topic helloTopic --bootstrap-server localhost:9092 to get all produced messages from the topic.
   
-  
+##### Step1 Start Zookeeper
+
+  ![ZooKeeper](https://github.com/privatevkakarla/project8-vkakarla-springboot-kafka-producer-consumer-service/blob/master/src/main/resources/Images/ZooKeeper.PNG "ZooKeeper")
   
   
 
