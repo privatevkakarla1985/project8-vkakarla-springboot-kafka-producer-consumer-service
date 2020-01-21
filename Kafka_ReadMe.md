@@ -51,5 +51,11 @@ kafka-console-consumer.bat --topic helloTopic --bootstrap-server localhost:9092
   
  ##### Step5 Start Consumer
 
-  ![Consumer](https://github.com/privatevkakarla/project8-vkakarla-springboot-kafka-producer-consumer-service/blob/master/src/main/resources/Images/Consumer.PNG "Consumer")  
+  ![Consumer](https://github.com/privatevkakarla/project8-vkakarla-springboot-kafka-producer-consumer-service/blob/master/src/main/resources/Images/Consumer.PNG "Consumer") 
+  
+  
+##### Once you published the messages in topic and consumed from the topic by the consumer
+
+  ![ConsoleOutput](https://github.com/privatevkakarla/project8-vkakarla-springboot-kafka-producer-consumer-service/blob/master/src/main/resources/Images/ConsoleOutput.PNG "ConsoleOutput")   
+   
   
