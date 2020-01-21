@@ -37,6 +37,19 @@ kafka-console-consumer.bat --topic helloTopic --bootstrap-server localhost:9092
 
   ![ZooKeeper](https://github.com/privatevkakarla/project8-vkakarla-springboot-kafka-producer-consumer-service/blob/master/src/main/resources/Images/ZooKeeper.PNG "ZooKeeper")
   
+##### Step2 Start Server
+
+  ![Server](https://github.com/privatevkakarla/project8-vkakarla-springboot-kafka-producer-consumer-service/blob/master/src/main/resources/Images/Server.PNG "Server")  
+
+##### Step3 Create Topic
+
+  ![Topic](https://github.com/privatevkakarla/project8-vkakarla-springboot-kafka-producer-consumer-service/blob/master/src/main/resources/Images/Topic.PNG "Topic") 
   
+ ##### Step4 Start Producer
 
+  ![Producer](https://github.com/privatevkakarla/project8-vkakarla-springboot-kafka-producer-consumer-service/blob/master/src/main/resources/Images/Producer.PNG "Producer")
+  
+ ##### Step5 Start Consumer
 
+  ![Consumer](https://github.com/privatevkakarla/project8-vkakarla-springboot-kafka-producer-consumer-service/blob/master/src/main/resources/Images/Consumer.PNG "Consumer")  
+  
