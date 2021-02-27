@@ -2,11 +2,11 @@
 
 ```Java
 
-C:\kafka_2.11-2.0.0\bin\windows
+C:\_2.12-2.4.1\bin\windows
 
-zookeeper-server-start.bat C:\kafka_2.11-2.0.0\config\zookeeper.properties
+zookeeper-server-start.bat C:\_2.12-2.4.1\config\zookeeper.properties
 
-kafka-server-start.bat C:\kafka_2.11-2.0.0\config\server.properties
+kafka-server-start.bat C:\_2.12-2.4.1\config\server.properties
 
 kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic helloTopic
 
@@ -26,8 +26,8 @@ kafka-console-consumer.bat --topic helloTopic --bootstrap-server localhost:9092
 
   * Go to C:\kafka_2.11-2.0.0\bin\windows  folder using CMD and 
   * You can name every CMD winodw "title name" command
-  * Start ZooKeeper : zookeeper-server-start.bat C:\kafka_2.11-2.0.0\config\zookeeper.properties
-  * Start Server : kafka-server-start.bat C:\kafka_2.11-2.0.0\config\server.properties
+  * Start ZooKeeper : zookeeper-server-start.bat C:\_2.12-2.4.1\config\zookeeper.properties
+  * Start Server : kafka-server-start.bat C:\_2.12-2.4.1\config\server.properties
   * Create Topic : kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic helloTopic
   * Start Producer :kafka-console-producer.bat --broker-list localhost:9092 --topic helloTopic
   * Now you can produce all messages either application or producer console
