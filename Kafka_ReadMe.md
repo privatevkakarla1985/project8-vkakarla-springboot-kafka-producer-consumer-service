@@ -21,6 +21,9 @@
   * It works similar to an enterprise messaging system where it publishes and subscribes streams of records.
   * It stores the streams of records in a fault-tolerant durable way.
 
+![apache-kafka-tutorial-1.png](https://static.javatpoint.com/tutorial/kafka/images/apache-kafka-tutorial-1.png "apache-kafka-tutorial-1.png")
+
+
 ## Terminology
 
 #### Topics
