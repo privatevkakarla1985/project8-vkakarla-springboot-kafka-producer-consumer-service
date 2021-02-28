@@ -41,10 +41,15 @@
 #### Replicas of partition
 * Replicas are nothing but backups of a partition. Replicas are never read or write data. They are used to prevent data loss.
 
+#### Kafka Cluster
+* Kafka’s having more than one broker are called as Kafka cluster. 
+* A Kafka cluster can be expanded without downtime. 
+* These clusters are used to manage the persistence and replication of message data.
+
 #### Brokers
 * Brokers are simple system responsible for maintaining the pub-lished data. 
 * Each broker may have zero or more partitions per topic.
-* Kafka cluster typically consists of multiple brokers to maintain load balance. 
+* **Kafka cluster typically consists of multiple brokers to maintain load balance.** 
 * Kafka brokers are stateless, so they use ZooKeeper for maintaining their cluster state. 
 * **One Kafka broker instance can handle hundreds of thousands of reads and writes per second and each bro-ker can handle TB of messages without performance impact.** 
 
@@ -54,10 +59,7 @@
 * As per the notification received by the Zookeeper regarding presence or failure of the broker then pro-ducer and consumer takes decision and starts coordinating their task with some other broker.
 
 
-#### Kafka Cluster
-* Kafka’s having more than one broker are called as Kafka cluster. 
-* A Kafka cluster can be expanded without downtime. 
-* These clusters are used to manage the persistence and replication of message data.
+
 
 #### Producers
 * Producers are the publisher of messages to one or more Kafka topics. 
