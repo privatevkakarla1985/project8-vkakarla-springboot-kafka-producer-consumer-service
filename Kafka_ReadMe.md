@@ -1,4 +1,57 @@
-## Kafka
+# Apache Kafka
+
+#### What is Apache Kafka
+
+* Apache Kafka is an open-source stream-processing software platform which is used to handle the real-time data storage. It works as a broker between two parties, i.e., a sender and a receiver. It can handle about trillions of data events in a day.
+
+* Apache Kafka is a software platform which is based on a distributed streaming process. It is a publish-subscribe messaging system which let exchanging of data between applications, servers, and processors as well.
+
+#### What is a messaging system
+
+* A messaging system is a simple exchange of messages between two or more persons, devices, etc. A publish-subscribe messaging system allows a sender to send/write the message and a receiver to read that message. In Apache Kafka, a sender is known as a producer who publishes messages, and a receiver is known as a consumer who consumes that message by subscribing it.
+
+#### What is Streaming process
+
+* A streaming process is the processing of data in parallelly connected systems. 
+* This process allows different applications to limit the parallel execution of the data, where one record executes without waiting for the output of the previous record. 
+* Therefore, a distributed streaming platform enables the user to simplify the task of the streaming process and parallel execution. 
+* Therefore, a streaming platform in Kafka has the following key capabilities:
+
+  * As soon as the streams of records occur, it processes it.
+  * It works similar to an enterprise messaging system where it publishes and subscribes streams of records.
+  * It stores the streams of records in a fault-tolerant durable way.
+
+## Terminology
+
+#### Topics
+* A stream of messages belonging to a particular category is called a topic. Data is stored in topics.
+
+#### Partition
+* Topics may have many partitions, so it can handle an arbitrary amount of data. (**Arbitrary data is any data in any format.**)
+
+#### Partition offset
+* Each partitioned message has a unique sequence id called as offset.
+
+#### Replicas of partition
+* Replicas are nothing but backups of a partition. Replicas are never read or write data. They are used to prevent data loss.
+
+#### Brokers
+* Brokers are simple system responsible for maintaining the pub-lished data. 
+* Each broker may have zero or more partitions per topic. Assume, if there are N partitions in a topic and N number of brokers, each broker will have one partition.
+
+#### Kafka Cluster
+* Kafka’s having more than one broker are called as Kafka cluster. 
+* A Kafka cluster can be expanded without downtime. 
+* These clusters are used to manage the persistence and replication of message data.
+
+#### Producers
+* Producers are the publisher of messages to one or more Kafka topics. 
+* Producers send data to Kafka brokers. Every time a producer pub-lishes a message to a broker, the broker simply appends the message to the last segment file.
+
+#### Consumers
+
+* Consumers read data from brokers. 
+* Consumers subscribes to one or more topics and consume published messages by pulling data from the brokers.
 
 ```Java
 
