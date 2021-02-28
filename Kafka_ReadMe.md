@@ -22,7 +22,7 @@
 
   * As soon as the streams of records occur, it processes it.
   * It works similar to an enterprise messaging system where it publishes and subscribes streams of records.
-  * It stores the streams of records in a fault-tolerant durable way.
+  * It stores the streams of records in a fault-tolerant durable way. (**A fault-tolerant design enables a system to continue its intended operation, possibly at a reduced level, rather than failing completely, when some part of the system fails.**)
 
 ![apache-kafka-tutorial-1.png](https://static.javatpoint.com/tutorial/kafka/images/apache-kafka-tutorial-1.png "apache-kafka-tutorial-1.png")
 
