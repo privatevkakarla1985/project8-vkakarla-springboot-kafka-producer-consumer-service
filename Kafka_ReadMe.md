@@ -2,13 +2,16 @@
 
 #### What is Apache Kafka
 
-* Apache Kafka is an open-source stream-processing software platform which is used to handle the real-time data storage. It works as a broker between two parties, i.e., a sender and a receiver. It can handle about trillions of data events in a day.
+* Apache Kafka is an open-source stream-processing software platform which is used to handle the real-time data storage. 
+* It works as a broker between two parties, i.e., a sender and a receiver. 
+* It can handle about trillions of data events in a day.
 
-* Apache Kafka is a software platform which is based on a distributed streaming process. It is a publish-subscribe messaging system which let exchanging of data between applications, servers, and processors as well.
 
 #### What is a messaging system
 
-* A messaging system is a simple exchange of messages between two or more persons, devices, etc. A publish-subscribe messaging system allows a sender to send/write the message and a receiver to read that message. In Apache Kafka, a sender is known as a producer who publishes messages, and a receiver is known as a consumer who consumes that message by subscribing it.
+* A messaging system is a simple exchange of messages between two or more persons, devices, etc. 
+* A publish-subscribe messaging system allows a sender to send/write the message and a receiver to read that message. 
+* **In Apache Kafka, a sender is known as a producer who publishes messages, and a receiver is known as a consumer who consumes that message by subscribing it.**
 
 #### What is Streaming process
 
